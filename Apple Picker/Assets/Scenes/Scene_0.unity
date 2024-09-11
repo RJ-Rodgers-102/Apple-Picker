@@ -306,6 +306,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7479792031294230906, guid: 43e809b5727c5864f964065d0487a3bc, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479792031294230906, guid: 43e809b5727c5864f964065d0487a3bc, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7479792031294230908, guid: 43e809b5727c5864f964065d0487a3bc, type: 3}
       propertyPath: m_Name
       value: Apple Tree
@@ -353,6 +361,26 @@ PrefabInstance:
     - target: {fileID: 7479792031294230909, guid: 43e809b5727c5864f964065d0487a3bc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9134153712335351307, guid: 43e809b5727c5864f964065d0487a3bc, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9134153712335351307, guid: 43e809b5727c5864f964065d0487a3bc, type: 3}
+      propertyPath: applePrefab
+      value: 
+      objectReference: {fileID: 8825460829562806859, guid: 297b0fcbf2b251e49b6c58e8a9c42a5b, type: 3}
+    - target: {fileID: 9134153712335351307, guid: 43e809b5727c5864f964065d0487a3bc, type: 3}
+      propertyPath: appleDropDelay
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9134153712335351307, guid: 43e809b5727c5864f964065d0487a3bc, type: 3}
+      propertyPath: changeDirChange
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9134153712335351307, guid: 43e809b5727c5864f964065d0487a3bc, type: 3}
+      propertyPath: leftAndRightEdge
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43e809b5727c5864f964065d0487a3bc, type: 3}
