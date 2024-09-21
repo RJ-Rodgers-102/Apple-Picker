@@ -12,7 +12,7 @@ public class AppleTree : MonoBehaviour
     public float speed = 5f;
     public float leftAndRightEdge = 20f;
     public float changeDirChange = 0.0000001f;
-    public float appleDropDelay = 1f;
+    public float appleDropDelay = 0f;
     void Start()
     {
         // start dropping apples
